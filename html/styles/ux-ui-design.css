@@ -1,0 +1,95 @@
+@import url(./base.css);
+
+.title_container .breadcrums {
+  padding-top: 100px;
+}
+
+.section_1 {
+  margin-top: 50px;
+}
+
+.section_1 span {
+  margin-bottom: 10px;
+}
+
+.section_2 {
+  margin-top: 120px;
+}
+
+.section_2 h2 {
+  font-family: "Kallisto Medium", sans-serif;
+  font-weight: 300;
+  font-size: 54px;
+}
+
+.section_2 .card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 50%);
+}
+
+.section_2 .card .card_img {
+  width: 50%;
+}
+
+.section_2 .card p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .title_container .breadcrums {
+    padding-top: 40px;
+  }
+
+  .section_1 {
+    max-width: 1024px;
+  }
+
+  .section_2 {
+    max-width: 1024px;
+  }
+
+  .section_2 .card .card_img {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title_container .breadcrums {
+    padding-top: 0px;
+  }
+
+  .section_2 .card .card_img {
+    width: 120%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section_2 h2 {
+    font-size: 30px;
+  }
+
+  .section_2 .card_container {
+    max-width: 50%;
+  }
+
+  .section_2 .card {
+    padding: 10px;
+  }
+
+  .section_2 .card .card_img {
+    width: 75%;
+  }
+
+  .section_2 .card p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}

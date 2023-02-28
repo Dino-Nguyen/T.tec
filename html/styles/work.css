@@ -1,0 +1,113 @@
+#work{
+    color: rgb(39, 39, 178);
+}
+.work-banner {
+    width: 100%;
+    z-index: 0;
+}
+.work-container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.work-box{
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-title-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-top: -130px;
+    margin-left: 600px;
+    width: 600px;
+    z-index: 1;
+    font-family: "Kallisto", sans-serif;
+    float: right;
+}
+.work-title {
+    color: rgb(72, 72, 232);
+    font-size: 70px;
+    text-align: center;
+}
+.work-box-img{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-box-img img {
+    margin: 25px;
+    width: 600px;
+}
+.work-box-img img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.home-our-service-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.home-our-service-h2 {
+    color: rgb(55, 55, 226);
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: left;
+    width: 75%;
+    font-family: "Kallisto", sans-serif;
+}
+.home-our-service-box {
+    width: 75%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    scroll-padding: 48px;
+    padding-bottom: 32px;
+   -webkit-overflow-scrolling: touch;
+}
+.home-our-service-item{
+   display: flex;
+   flex-direction: column;
+   scroll-snap-align: start;
+   position: relative;
+}
+.home-our-service-item-img{
+    width: 400px;
+}
+.rectangle{
+    position: absolute;
+    margin-top:0px;
+}
+.home-our-service-item-text{
+    position: absolute;
+    margin-top:0px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "roboto";
+}
+.our-service-title {
+    color: #7bdcb5;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.home-our-service-item-text h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.our-service-inner-text{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 2;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,79 @@
+@import url(./base.css);
+
+.title_container .title h2 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.title_container .breadcrums {
+  padding-top: 50px;
+}
+
+.section_1 {
+  margin-top: 50px;
+}
+
+.section_2 {
+  margin-top: 120px;
+}
+
+.section_2 h2 {
+  font-family: "Kallisto Medium", sans-serif;
+  font-weight: 300;
+  font-size: 54px;
+}
+
+.section_2 .section_img {
+  padding: 35px;
+}
+
+.section_2 .img_2 {
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+
+.section_3 {
+  margin-top: 70px;
+}
+
+.section_3 .discribe h2 {
+  margin-bottom: 20px;
+  font-family: "Kallisto Medium", Sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section_1 {
+    max-width: 1024px;
+  }
+
+  .section_2 {
+    max-width: 1024px;
+  }
+
+  .section_2 .section_img_container {
+    max-width: 1024px;
+  }
+
+  .section_3 {
+    max-width: 1024px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title_container .breadcrums {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section_2 .img_2 {
+    border: none;
+  }
+
+  .section_3 .discribe h2 {
+    font-size: 30px;
+  }
+}

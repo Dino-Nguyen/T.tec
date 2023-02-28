@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <title>Home - Testec</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/font/Kallisto-Medium.otf" />
+    <link
+      rel="stylesheet"
+      href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/contact-use.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <section class="container header_home_page">
+        <div class="logo_header">
+          <a href="https://testec.io">
+            <img id="logo" src="./assets/logo.png" />
+          </a>
+        </div>
+
+        <div class="menu_header">
+          <ul>
+            <li>
+              <a id="home" class="focus" href="https://testec.io/"> Home </a>
+            </li>
+            <li>
+              <a class="focus" href="https://testec.io/services/"> Services </a>
+            </li>
+            <li>
+              <a class="focus" href="https://testec.io/works/"> Works </a>
+            </li>
+            <li>
+              <a
+                id="contact"
+                class="focus"
+                href="https://testec.io/contact-us/"
+              >
+                Contact
+              </a>
+            </li>
+            <li>
+              <a class="focus" href="https://testec.io/careers/"> Careers </a>
+            </li>
+            <li>
+              <a id="bookBtn" href="https://testec.io/contact-us/">
+                Book Now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </header>
+
+    <div class="contact-us-banner">
+      <div class="contact-us-banner-title">Book Now</div>
+      <img src="./assets/contact-us/banner (2).png" alt="" />
+    </div>
+
+    <section class="contact-us-container">
+      <div class="contact-us-title">
+        Interested to work with us as a client?
+      </div>
+      <div class="contact-us-box">
+        <div class="contact-us-box-1">
+          <div class="contact-us-item">
+            <div>
+              Fill up and submit the form below and we will contact you within 1
+              week.
+            </div>
+            <div class="contact-us-required">*Required Fields</div>
+          </div>
+          <div>
+            <form
+              method="POST"
+              id="contactForm"
+              name="contactForm"
+              novalidate="novalidate"
+              action="/action_page.php"
+            >
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div>Full Name*</div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="name"
+                      id="name"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div>Email Address*</div>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div>Contact Number*</div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject"
+                      placeholder="Contact Number"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group message">
+                    <div class="message-title">Message*</div>
+                    <textarea
+                      name="message"
+                      class="form-control"
+                      id="message"
+                      cols="30"
+                      rows="5"
+                      placeholder=""
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="submit-box">
+                  <div class="captcha-box">
+                    <div
+                      class="g-recaptcha"
+                      data-sitekey="6LcaDOEcAAAAAMMMjj-8-BQorfN6X5DJIScfRuFz"
+                    ></div>
+                    <img
+                      src="./assets/contact-us/awscloudflaresme_go_digital-01-1.png"
+                    />
+                  </div>
+                  <input
+                    type="submit"
+                    class="g-recaptcha"
+                    data-sitekey="reCAPTCHA_site_key"
+                    data-callback="onSubmit"
+                    data-action="submit"
+                    placeholder="Submit"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contact-us-box-2">
+          <div class="contact-us-box-2-title">Locate Us</div>
+          <div class="contact-us-box-2-item">
+            <div class="contact-us-box-2-item-title">
+              <i class="bi bi-geo-alt-fill"></i>
+              SINGAPORE (HEADQUARTER)
+            </div>
+            <div class="contact-us-box-2-text">1 Harvey Road #04-00</div>
+            <div class="contact-us-box-2-text">Singapore 369610</div>
+            <a
+              href="https://www.google.co.in/maps/place/1+Harvey+Rd,+%2304+00,+Singapore+369610/@1.3327842,103.8844507,17z/data=!3m1!4b1!4m5!3m4!1s0x31da178e8fea6bb3:0xc8237dc4932aa70c!8m2!3d1.3327842!4d103.8844507?hl=en"
+            >
+              <div class="contact-us-box-2-gg-map">
+                Click here to view directions
+              </div>
+            </a>
+          </div>
+          <div class="contact-us-box-2-item">
+            <div class="contact-us-box-2-item-title">
+              <i class="bi bi-clock"></i>
+              Operating Hours
+            </div>
+            <div class="contact-us-box-2-text">
+              Monday to Friday: 9.00am to 6.30pm
+            </div>
+            <div class="contact-us-box-2-text">
+              Saturday, Sunday, Public Holiday: Closed
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <section class="footer-container">
+        <section class="footer-box-1">
+          <div>
+            <h2>Quick Links</h2>
+
+            <div class="footer-item">
+              <a href="https://testec.io">
+                <span>Home</span>
+              </a>
+
+              <a href="https://testec.io/about/">
+                <span>About</span>
+              </a>
+
+              <a href="https://testec.io/services/">
+                <span>Services</span>
+              </a>
+
+              <a href="https://testec.io/works/">
+                <span>Works</span>
+              </a>
+
+              <a href="https://testec.io/clients/">
+                <span>Clients</span>
+              </a>
+
+              <a href="https://testec.io/blogs/">
+                <span>Blog</span>
+              </a>
+
+              <a href="https://testec.io/contact-us/">
+                <span>Contact Us</span>
+              </a>
+
+              <a href="https://testec.io/careers/">
+                <span>Careers</span>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h2>Services</h2>
+
+            <div class="footer-item">
+              <a href="https://testec.io/services/digital-marketing/">
+                <span>Digital marketing</span>
+              </a>
+
+              <a href="https://testec.io/services/mobile-development/">
+                <span>mobile development</span>
+              </a>
+
+              <a href="https://testec.io/services/website-development/">
+                <span>website development</span>
+              </a>
+
+              <a href="https://testec.io/services/cloud-solutions/">
+                <span>cloud solution</span>
+              </a>
+
+              <a href="https://testec.io/services/enterprise-solutions/">
+                <span>enterprise solution</span>
+              </a>
+
+              <a href="https://testec.io/services/ux-ui-design/">
+                <span>UI/UX design</span>
+              </a>
+
+              <a href="https://testec.io/services/qa-testing/">
+                <span>qa & testing</span>
+              </a>
+
+              <a href="https://testec.io/services/it-consulting/">
+                <span>it consulting</span>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h2>Socials</h2>
+
+            <div>
+              <a href="https://www.facebook.com/Asure-Pro-115338830373084">
+                <img src="./assets/FB.png" />
+              </a>
+
+              <img src="./assets/Linkedin.png" />
+            </div>
+          </div>
+
+          <div>
+            <h2>Contact Us</h2>
+            <div class="footer-item-1">
+              <div class="footer-item-2">
+                <span>
+                  <i class="bi bi-envelope"></i>
+                </span>
+                <span>
+                  <a href="email-protection">[email&#160;protected] </a>
+                </span>
+              </div>
+              <div class="footer-item-2">
+                <span>
+                  <i class="bi bi-telephone-fill"></i>
+                </span>
+                <span>(65) 3157 2621 </span>
+              </div>
+              <div class="footer-item-2">
+                <span> 1 Harvey Road #04-00 <br />Singapore 369610 </span>
+              </div>
+              <img class="SME-img" src="./assets/SMEgoDigital_final-1.png" />
+            </div>
+          </div>
+
+          <div>
+            <div>
+              <a href="#">
+                <img class="footer-arrow" src="./assets/Link-arrow.png" />
+              </a>
+            </div>
+
+            <h2>To top</h2>
+          </div>
+        </section>
+        <section class="footer-box-2">
+          <div class="footer-break"></div>
+        </section>
+
+        <section class="footer-box-3">
+          <div class="footer-box-3-item">
+            <div>© Tes Tec Pte Ltd 2022. All Rights Reserved</div>
+
+            <a href="#">
+              <div class="privacy">Privacy Policy</div>
+            </a>
+          </div>
+          <div class="footer-box-3-item-2">
+            <img
+              class="Cyber-img"
+              src="./assets/SG-Cyber-Safe-Social_white.png"
+            />
+
+            <div>
+              <h3 class="footer-box-3-item-2-h3">
+                Enterprise on asset-based cyber defense an initiative by csa
+              </h3>
+            </div>
+          </div>
+        </section>
+      </section>
+    </footer>
+  </body>
+  <script src="./assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script src="./scripts/script.js"></script>
+
+  <script src="./scripts/menu-mobile-btn.js"></script>
+</html>

@@ -1,0 +1,43 @@
+@import url(./base.css);
+
+.title_container .breadcrums {
+  padding-top: 50px;
+}
+
+.section_1 {
+  margin-top: 20px;
+}
+
+.section_1 span {
+  margin-bottom: 10px;
+}
+
+.section_2 .discribe h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  .title_container .breadcrums {
+    padding-top: 30px;
+  }
+
+  .section_1 {
+    max-width: 1024px;
+  }
+
+  .section_2 {
+    max-width: 1024px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title_container .breadcrums {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+}

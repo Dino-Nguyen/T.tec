@@ -1,0 +1,77 @@
+@import url(./base.css);
+
+.section_1 {
+  margin-top: 50px;
+}
+
+.section_1 span {
+  margin-bottom: 10px;
+}
+
+.section_2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+.section_2 h2 {
+  font-family: "Kallisto Medium", sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+}
+
+.card {
+  padding: 50px 27px 30px 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+}
+
+.card .card_img_number {
+  text-align: start;
+  padding-left: 16px;
+}
+
+.card p {
+  text-align: center;
+  color: #6852ed;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1;
+}
+
+.card span {
+  margin-top: 20px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section_1 {
+    max-width: 1024px;
+  }
+
+  .section_2 {
+    max-width: 1024px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section_2 h2 {
+    font-size: 30px;
+  }
+
+  .card_container {
+    margin-bottom: 20px;
+  }
+
+  .card .card_img_number {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+}

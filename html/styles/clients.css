@@ -1,0 +1,45 @@
+.clients-container-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-container-title{
+    font-size: 60px;
+    font-family: "Kallisto", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -200px;
+}
+.clients-box{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-item-1{
+    width: 1200px;
+}
+.clients-item-title {
+    font-family: "Kallisto", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.clients-item-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+.clients-item-2{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.clients-item-2-img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin:  30px ;
+}

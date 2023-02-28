@@ -1,0 +1,126 @@
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-box {
+    display: flex;
+    width: 80vw;
+   
+   
+}
+.logo-box-inner {
+    width: 50vw;
+}
+.logo-text{
+    margin:  10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.logo-title{
+    font-family: "Kallisto", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.logo-box-img {
+
+}
+.challenges-box {
+    display: flex;
+    width: 80vw;
+    
+   margin-top: 50px;
+}
+
+.challenges {
+    width: 50%;
+    
+}
+.challenges-title{
+    font-family: "Kallisto", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.challenges-text {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.challenges-text-list {
+    display: flex;
+    justify-content: space-around;
+}
+.challenges-text ul {
+    
+   width: 50%;
+    
+}
+.challenges-text ul li {
+    list-style-type:disc;
+    margin-left: 15%;
+}
+.solution-box {
+    display: flex;
+    width: 80vw;
+   
+    margin-top: 90px;
+   
+}
+.solution-box-inner {
+    margin-right: 5%;
+    width: 90%;
+}
+.solution-title {
+    font-family: "Kallisto", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.solution-text {
+    font-weight: 600;
+    font-size: 25px;
+}
+.solution-box-text h3 {
+    font-family: "Kallisto", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.solution-box-text p {
+    font-size: 20px;
+}
+.solution-img-box {
+    margin-top: 150px;
+}
+.solution-img {
+    margin-top: -350px;
+    margin-left: 40px;
+}
+.result-box {
+    display: flex;
+    width: 80vw;
+   
+    margin-top: 60px;
+   margin-bottom: 100px;
+   flex-direction: column;
+}
+.result-title {
+    font-family: "Kallisto", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.result-text-title {
+    font-family: "Kallisto", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+
+}
+.result-text-box p {
+   font-size: 20px;
+   margin-top: 10px;
+}
+.home-our-service-h2 {
+    color: black;
+    font-size: 55px;
+}

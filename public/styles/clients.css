@@ -1,0 +1,170 @@
+.clients-container {
+    width: 100vw;
+}
+.clients-container-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-container-title{
+    font-size: 60px;
+    font-family: "Kallisto", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: -200px;
+}
+.clients-box{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients-item-1{
+    width: 1200px;
+}
+.clients-item-title {
+    font-family: "Kallisto", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.clients-item-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+.clients-item-2{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.clients-item-2-img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin:  30px ;
+}
+
+@media only screen and (max-width: 830px) {
+    .clients-container {
+        width: 100vw;
+    }
+    .clients-container-banner {
+        width: 820px;
+       
+        
+      
+    }
+    .clients-container-title{
+        font-size: 60px;
+        font-family: "Kallisto", sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: -130px;
+        margin-right: 100px;
+    }
+    .clients-box{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        margin-left: 40px;
+    }
+    .clients-item-1{
+        width: 80vw;
+        margin-left: 0px;
+    }
+    .clients-item-title {
+        font-family: "Kallisto", sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .clients-item-text{
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+    }
+    .clients-item-2{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        margin-left: 130px;
+    }
+    .clients-item-2-img {
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        margin:  15px ;
+    }
+    .clients-item-2-img img {
+        width: 170px;
+        height: 150px;
+        
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .clients-container {
+        width: 100vw;
+    }
+    .clients-container-banner {
+        width: 820px;
+ 
+    }
+    .clients-container-title{
+        font-size: 50px;
+        font-family: "Kallisto", sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: -130px;
+        margin-right: 100px;
+    }
+    .clients-box{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        margin-left: 40px;
+    }
+    .clients-item-1{
+        width: 80vw;
+        margin-left: 0px;
+    }
+    .clients-item-title {
+        font-family: "Kallisto", sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .clients-item-text{
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+    }
+    .clients-item-2{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        margin-left: 40px;
+    }
+    .clients-item-2-img {
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        margin:  15px ;
+        margin-right: 70px;
+    }
+    .clients-item-2-img img {
+        width: 270px;
+        height: 250px;
+        
+    }
+}

@@ -1,0 +1,414 @@
+#careers{
+    color: rgb(39, 39, 178);
+}
+.careers-container {
+    font-family:'Montserrat', sans-serif ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.careers-banner{
+    height:400px;
+}
+.careers-container img {
+    width: 100%;
+}
+.careers-container-title {
+    color: rgb(8, 8, 255);
+    font-size: 70px;
+    font-weight: 300;
+    font-family: "Kallisto", sans-serif;
+    background-color: white;
+    margin-top: -80px;
+    margin-left: 700px;
+    padding: 10px 100px;
+    border-radius: 10px;
+}
+.careers-box-1{
+    width: 70%;
+    margin-top: 70px;
+}
+.careers-box-1-title{
+    font-family: "Kallisto", sans-serif;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.745);
+}
+.careers-card {
+    border: 1px solid rgba(109, 109, 109, 0.745);
+    box-shadow: 1px 1px 3px 1px #d8d8d8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.careers-card-text{
+    margin: 30px;
+}
+.careers-card-text-title {
+    color: rgba(0, 0, 0, 0.745);
+    font-size: 25px;
+    font-weight: 900;
+}
+.careers-card-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    color: rgb(154, 154, 154);
+}
+.careers-card-inner {
+    margin-right: 20px;
+}
+.careers-card-inner svg {
+    margin-right: 5px;
+}
+.apply-button {
+    color: white;
+    background-color: rgb(26, 26, 240);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+}
+.apply-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.careers-box-2 {
+    display: flex;
+    margin-top: 50px;
+    width: 65%;
+    justify-content: center;
+}
+.careers-box-2-item{
+    width: 1000px;
+    margin: 25px;
+    margin-bottom: 60px;
+}
+.careers-box-2-card {
+    box-shadow: 1px 1px 3px 3px hsla(263, 73%, 45%, 0.294);
+    border-radius: 15px;
+    width: 300px;
+    height:300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.careers-box-2-card img {
+    width: 120px;
+}
+.careers-box-2-card-text{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card-2 {
+    margin-top: 100px;
+}
+.careers-box-why{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.careers-box-why-title {
+    font-family: "Kallisto", sans-serif;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.822);
+    margin-bottom: 30px;
+}
+.careers-box-why-text{
+    line-height: 2;
+    font-size: 18px;
+    width: 500px;
+    
+}
+
+@media only screen and (max-width: 830px) {
+    #careers{
+        color: rgb(39, 39, 178);
+    }
+    .careers-container {
+        font-family:'Montserrat', sans-serif ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin: auto;
+    }
+    .careers-banner{
+        height:200px;
+    }
+    .careers-container img {
+        width: 100%;
+    }
+    .careers-container-title {
+        color: rgb(8, 8, 255);
+        font-size: 55px;
+        font-weight: 300;
+        font-family: "Kallisto", sans-serif;
+        background-color: white;
+        margin-top: -70px;
+        margin-left: 270px;
+        padding: 10px 100px;
+        border-radius: 10px;
+    }
+    .careers-box-1{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .careers-box-1-title{
+        font-family: "Kallisto", sans-serif;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.745);
+        margin-left: -30px;
+        line-height: 1;
+    }
+    .careers-card {
+        width: 95vw;
+        border: 1px solid rgba(109, 109, 109, 0.745);
+        box-shadow: 1px 1px 3px 1px #d8d8d8;
+        border-radius: 20px;
+        display: flex;
+        
+        justify-content: space-between;
+        margin-top: 40px;
+        align-items: center;
+        margin-left: -97px;
+        padding-bottom: 20px;
+    }
+    .careers-card-text{
+        margin: 30px;
+    }
+    .careers-card-text-title {
+        color: rgba(0, 0, 0, 0.745);
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .careers-card-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 15px;
+        color: rgb(154, 154, 154);
+    }
+    .careers-card-inner {
+        margin-right: 20px;
+    }
+    .careers-card-inner svg {
+        margin-right: 5px;
+    }
+    .apply-button {
+        color: white;
+        background-color: rgb(26, 26, 240);
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        font-size: 20px;
+        height: 50px;
+        width: 200px;
+        margin-right: 20px;
+    }
+    .apply-button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .careers-box-2 {
+        width: 100%;
+        display: flex;
+       
+       justify-content: space-between;
+    }
+    .careers-box-2-item{
+       
+        
+        width: 30%;
+    }
+    .careers-box-2-card {
+        box-shadow: 1px 1px 3px 3px hsla(263, 73%, 45%, 0.294);
+        border-radius: 15px;
+        width: 180px;
+        height:170px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .careers-box-2-card img {
+        width: 70px;
+    }
+    .careers-box-2-card-text{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .card-2 {
+        margin-right: 35px;
+        margin-top: 100px;
+    }
+    .careers-box-why{
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .careers-box-why-title {
+        font-family: "Kallisto", sans-serif;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.822);
+        margin-bottom: 30px;
+    }
+    .careers-box-why-text{
+        line-height: 2;
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+   
+  }
+
+
+@media only screen and (max-width: 400px) {
+    #careers{
+        color: rgb(39, 39, 178);
+    }
+    .careers-container {
+        font-family:'Montserrat', sans-serif ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin: auto;
+    }
+    .careers-banner{
+        height:200px;
+    }
+    .careers-container img {
+        width: 100%;
+    }
+    .careers-container-title {
+        color: rgb(8, 8, 255);
+        font-size: 35px;
+        font-weight: 300;
+        font-family: "Kallisto", sans-serif;
+        background-color: white;
+        margin-top: 20px;
+        margin-left: -170px;
+        padding: 10px 100px;
+        border-radius: 10px;
+    }
+    .careers-box-1{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .careers-box-1-title{
+        font-family: "Kallisto", sans-serif;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.745);
+        margin-left: -30px;
+        line-height: 1;
+    }
+    .careers-card {
+        width: 95vw;
+        border: 1px solid rgba(109, 109, 109, 0.745);
+        box-shadow: 1px 1px 3px 1px #d8d8d8;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 40px;
+        align-items: center;
+        margin-left: -47px;
+        padding-bottom: 20px;
+    }
+    .careers-card-text{
+        margin: 30px;
+    }
+    .careers-card-text-title {
+        color: rgba(0, 0, 0, 0.745);
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .careers-card-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 15px;
+        color: rgb(154, 154, 154);
+    }
+    .careers-card-inner {
+        margin-right: 20px;
+    }
+    .careers-card-inner svg {
+        margin-right: 5px;
+    }
+    .apply-button {
+        color: white;
+        background-color: rgb(26, 26, 240);
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        font-size: 20px;
+        height: 50px;
+        width: 200px;
+        margin-right: 20px;
+    }
+    .apply-button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .careers-box-2 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    .careers-box-2-item{
+        width: 150px;
+        margin-left: 5px;
+    }
+    .careers-box-2-card {
+        box-shadow: 1px 1px 3px 3px hsla(263, 73%, 45%, 0.294);
+        border-radius: 15px;
+        width: 180px;
+        height:170px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .careers-box-2-card img {
+        width: 70px;
+    }
+    .careers-box-2-card-text{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .card-2 {
+        margin-right: 35px;
+        margin-top: 100px;
+    }
+    .careers-box-why{
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .careers-box-why-title {
+        font-family: "Kallisto", sans-serif;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.822);
+        margin-bottom: 30px;
+    }
+    .careers-box-why-text{
+        line-height: 2;
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+   
+  }

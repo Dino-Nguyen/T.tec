@@ -1,0 +1,23 @@
+@import url(../base.css);
+@import url(../home.css);
+@import url(./work-pages-base.css);
+
+.section_1 img {
+  width: 80%;
+}
+
+.section_2 .section_img_2 {
+  top: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .section_1 h2{
+    margin-top: 15px;
+  }
+}
